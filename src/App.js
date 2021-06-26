@@ -25,7 +25,8 @@ function App() {
         </Switch>
       </Router>
       <footer>
-        <p className="center-text">© 2021.Muhamad Samsul Arifin, All Rights Reserved.</p>
+        <p className="center-text">
+          © 2021.Muhamad Samsul Arifin, All Rights Reserved.</p>
       </footer>
     </div>
   );

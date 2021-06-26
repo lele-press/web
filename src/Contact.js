@@ -1,13 +1,7 @@
 import React from 'react'
 
-import glare from './images/glaring.gif'
-import smile from './images/smile.gif'
-import emails from './images/emailL.gif'
-import instagram from './images/instagram.gif'
-import contactL from './images/contactL.png'
-import backskell0 from './images/backskell0.png'
-import backskell from './images/backskell.png'
 import { Link } from 'react-router-dom'
+import { emailL, backsell, backsell0, contactL, glaring, smile, instagram } from './images/images'
 
 class Contact extends React.Component {
     render() {
@@ -17,7 +11,7 @@ class Contact extends React.Component {
                     <header>
                         <nav className="image">
                             <div className="image image-container" >
-                                <img src={glare} alt="glare" width="240px" height="180px" />
+                                <img src={glaring} alt="glare" width="240px" height="180px" />
                                 <img className="transition-image-home" src={smile} alt="smile" width="240px" height="180px" />
                             </div>
                             <div className="image back-container" >
@@ -25,8 +19,8 @@ class Contact extends React.Component {
                             </div>
                             <Link to="/">
                                 <div className="image back-container" >
-                                    <img src={backskell0} alt="" width="240px" height="180px" />
-                                    <img className="transition-image-home" src={backskell} alt="smile" width="240px" height="180px" />
+                                    <img src={backsell0} alt="" width="240px" height="180px" />
+                                    <img className="transition-image-home" src={backsell} alt="smile" width="240px" height="180px" />
                                 </div>
                             </Link>
                         </nav>
@@ -36,7 +30,7 @@ class Contact extends React.Component {
                             <div className="gif-container">
                                 <address>
                                     <Link to="mailto:rockside82@gmail.com">
-                                        <img src={emails} alt="" />
+                                        <img src={emailL} alt="" />
                                     </Link>
                                 </address>
                             </div>

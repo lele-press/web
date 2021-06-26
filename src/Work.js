@@ -1,32 +1,7 @@
 import React from 'react'
 
-import glare from './images/glaring.gif'
-import smile from './images/smile.gif'
-import workL from './images/workL.png'
-import backwomen0 from './images/backwomen0.png'
-import backwomen from './images/backwomen.png'
-import frame from './images/frame.gif'
-import I1 from './images/I1.png'
-import I2 from './images/I2.png'
-import I3 from './images/I3.png'
-import I4 from './images/I4.png'
-import I5 from './images/I5.png'
-import I6 from './images/I6.png'
-import I7 from './images/I7.png'
-import I8 from './images/I8.png'
-import teesA1 from './images/teesA1.png'
-import teesA2 from './images/teesA2.png'
-import teesB1 from './images/teesB1.png'
-import teesB2 from './images/teesB2.png'
-import teesC1 from './images/teesC1.png'
-import teesC2 from './images/teesC2.png'
-import teesD1 from './images/teesD1.png'
-import teesD2 from './images/teesD2.png'
-import comic from './images/comic.png'
-import comic2 from './images/comic2.png'
-import tees from './images/tees.gif'
-import bat from './images/bat.gif'
 import { Link } from 'react-router-dom'
+import { workL, backwomen, backwomen0, frame, I1, I2, I3, I4, I5, I6, I7, I8, glaring, smile, teesA1, teesA2, teesB1, teesB2, teesC1, teesC2, teesD1, teesD2, comic, comic2, tees, bat } from './images/images'
 
 class Work extends React.Component {
     render() {
@@ -36,7 +11,7 @@ class Work extends React.Component {
                     <header>
                         <nav className="image">
                             <div className="image image-container" >
-                                <img src={glare} alt="glare" width="240px" height="180px" />
+                                <img src={glaring} alt="glare" width="240px" height="180px" />
                                 <img className="transition-image-home" src={smile} alt="smile" width="240px" height="180px" />
                             </div>
                             <div className="image back-container">
@@ -99,8 +74,8 @@ class Work extends React.Component {
                             </div>
                         </section>
                         <section className="images3">
-                            <Link href="https://drive.google.com/file/d/1re5KuaWLmlDQ-9toOQVhuyWfDemGG3Mz/view?usp=sharing" target="_blank" rel="noreferrer"><img src={comic} alt="comic" width="600px" height="800px" /></Link>
-                            <Link href="https://drive.google.com/file/d/1t9Z2D9gjrmfFfJqbsxgTfdtJJHeo65bQ/view?usp=sharing" target="_blank" rel="noreferrer"><img src={comic2} alt="comic" width="600px" height="800px" /></Link>
+                            <a href="https://drive.google.com/file/d/1re5KuaWLmlDQ-9toOQVhuyWfDemGG3Mz/view?usp=sharing" target="_blank" rel="noreferrer"><img src={comic} alt="comic" width="600px" height="800px" /></a>
+                            <a href="https://drive.google.com/file/d/1t9Z2D9gjrmfFfJqbsxgTfdtJJHeo65bQ/view?usp=sharing" target="_blank" rel="noreferrer"><img src={comic2} alt="comic" width="600px" height="800px" /></a>
                         </section>
 
                     </main>

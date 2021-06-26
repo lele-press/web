@@ -1,12 +1,7 @@
 import React from 'react'
 
-import glare from './images/glaring.gif'
-import smile from './images/smile.gif'
-import aboutL from './images/AboutL.png'
-import swordback from './images/swordback.png'
-import swordback0 from './images/swordback0.png'
-import profile2 from './images/profile2.JPG'
 import { Link } from 'react-router-dom'
+import { AboutL, swordback, swordback0, profile2, glaring, smile } from './images/images'
 
 class About extends React.Component {
     render() {
@@ -16,11 +11,11 @@ class About extends React.Component {
                     <header>
                         <nav className="image" >
                             <div className="image image-container" >
-                                <img src={glare} alt="glare" width="240px" height="180px" />
+                                <img src={glaring} alt="glare" width="240px" height="180px" />
                                 <img className="transition-image-home" src={smile} alt="smile" width="240px" height="180px" />
                             </div>
                             <div className="image back-container" >
-                                <img src={aboutL} alt="" width="650px" height="180px" />
+                                <img src={AboutL} alt="" width="650px" height="180px" />
                             </div>
                             <Link to="/">
                                 <div className="image back-container" >
