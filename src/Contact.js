@@ -29,17 +29,17 @@ class Contact extends React.Component {
                         <section className="email">
                             <div className="gif-container">
                                 <address>
-                                    <Link to="mailto:rockside82@gmail.com">
+                                    <a href="mailto:rockside82@gmail.com">
                                         <img src={emailL} alt="" />
-                                    </Link>
+                                    </a>
                                 </address>
                             </div>
                         </section>
                         <section className="instagram">
                             <div className="gif-container">
-                                <Link to="https://www.instagram.com/i_pinside/?hl=id" target="_blank" rel="noreferrer">
+                                <a href="https://www.instagram.com/i_pinside/?hl=id" target="_blank" rel="noreferrer">
                                     <img src={instagram} alt="" />
-                                </Link>
+                                </a>
                             </div>
                         </section>
                     </main>
